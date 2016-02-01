@@ -4,6 +4,9 @@
   "description": "",
   "main": "app.js",
   "dependencies": {},
+  "scripts" : {
+    "start" : "node app.js"
+  },
   "devDependencies": {},
   "repository": {
     "type": "git",
