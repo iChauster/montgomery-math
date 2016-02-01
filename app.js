@@ -20,7 +20,7 @@ app.use(require('express-session')({ secret: 'keyboard cat', resave: true, saveU
 app.use(express.static('public'));
 
 app.listen(process.env.PORT || 3000, function(){
-	console.log('photo running in port : %d in %s', this.address().port, app.settings.env);
+	console.log('math running in port : %d in %s', this.address().port, app.settings.env);
 });
 require('./routes')(app);
 module.exports = app;
