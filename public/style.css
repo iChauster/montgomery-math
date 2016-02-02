@@ -11,13 +11,14 @@ header{
 }
 @font-face{
 	font-family : "Math";
-	src:url(code/codeBold.otf) format('opentype');
+	src:url(code/codeLight.otf) format('opentype');
 }
 #main{
 	display:table;
 }
 .text-vertical-center{
 	letter-spacing: 3px;
+	font-size : 12em;
 	font-family:"Math";
      display: table-cell;
     text-align: center;
